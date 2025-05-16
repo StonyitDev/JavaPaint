@@ -593,7 +593,7 @@ public class PaintController {
 
     @FXML
     void onAboutApp(ActionEvent event) throws IOException {
-        Alert alertAboutApp = new Alert(Alert.AlertType.INFORMATION, "Version: 1.0.1 \nAuthor: StonyitDev", ButtonType.OK);
+        Alert alertAboutApp = new Alert(Alert.AlertType.INFORMATION, "Version: 1.0.2-extra-fix \nAuthor: StonyitDev", ButtonType.OK);
         alertAboutApp.setHeaderText("JavaPaint");
         alertAboutApp.setTitle("Information");
         alertAboutApp.setResizable(true);
@@ -644,7 +644,7 @@ public class PaintController {
 
     @FXML
     void actionGreenBucket(ActionEvent event) {
-        String greenbucketstyle = "-fx-background-color: green; -fx-background-radius: 0;";
+        String greenbucketstyle = "-fx-background-color: #11ff00; -fx-background-radius: 0;";
         colorContainer.setStyle(greenbucketstyle); colorContainer1.setStyle(greenbucketstyle); colorContainer2.setStyle(greenbucketstyle); colorContainer3.setStyle(greenbucketstyle);
         colorContainer4.setStyle(greenbucketstyle); colorContainer5.setStyle(greenbucketstyle); colorContainer6.setStyle(greenbucketstyle); colorContainer7.setStyle(greenbucketstyle);
         colorContainer8.setStyle(greenbucketstyle); colorContainer9.setStyle(greenbucketstyle); colorContainer10.setStyle(greenbucketstyle); colorContainer11.setStyle(greenbucketstyle);
@@ -686,7 +686,7 @@ public class PaintController {
 
     @FXML
     void actionPurpleBucket(ActionEvent event) {
-        String purplebucketstyle = "-fx-background-color: purple; -fx-background-radius: 0;";
+        String purplebucketstyle = "-fx-background-color: #d700ff; -fx-background-radius: 0;";
         colorContainer.setStyle(purplebucketstyle); colorContainer1.setStyle(purplebucketstyle); colorContainer2.setStyle(purplebucketstyle); colorContainer3.setStyle(purplebucketstyle);
         colorContainer4.setStyle(purplebucketstyle); colorContainer5.setStyle(purplebucketstyle); colorContainer6.setStyle(purplebucketstyle); colorContainer7.setStyle(purplebucketstyle);
         colorContainer8.setStyle(purplebucketstyle); colorContainer9.setStyle(purplebucketstyle); colorContainer10.setStyle(purplebucketstyle); colorContainer11.setStyle(purplebucketstyle);
