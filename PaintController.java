@@ -571,7 +571,7 @@ public class PaintController {
     void setPaintBlack(ActionEvent event) {style = "-fx-background-color: black; -fx-background-radius: 0;";}
 
     @FXML
-    void setPaintGreen(ActionEvent event) {style = "-fx-background-color: green; -fx-background-radius: 0;";}
+    void setPaintGreen(ActionEvent event) {style = "-fx-background-color: #11ff00; -fx-background-radius: 0;";}
 
     @FXML
     void setPaintRed(ActionEvent event) {style = "-fx-background-color: red; -fx-background-radius: 0;";}
@@ -583,7 +583,7 @@ public class PaintController {
     void setPaintOrange(ActionEvent event) {style = "-fx-background-color: orange; -fx-background-radius: 0;";}
 
     @FXML
-    void setPaintPurple(ActionEvent event) {style = "-fx-background-color: purple; -fx-background-radius: 0;";}
+    void setPaintPurple(ActionEvent event) {style = "-fx-background-color: #d700ff; -fx-background-radius: 0;";}
 
     @FXML
     void setPaintWhite(ActionEvent event) {style = "-fx-background-color: white; -fx-background-radius: 0;";}
@@ -593,8 +593,10 @@ public class PaintController {
 
     @FXML
     void onAboutApp(ActionEvent event) throws IOException {
-        Alert alertAboutApp = new Alert(Alert.AlertType.INFORMATION, "Version: 1.0.0 \nAuthor: StonyitDev", ButtonType.OK);
-        alertAboutApp.setHeaderText("JavaPaint"); alertAboutApp.setTitle("About app");
+        Alert alertAboutApp = new Alert(Alert.AlertType.INFORMATION, "Version: 1.0.1 \nAuthor: StonyitDev", ButtonType.OK);
+        alertAboutApp.setHeaderText("JavaPaint");
+        alertAboutApp.setTitle("Information");
+        alertAboutApp.setResizable(true);
         alertAboutApp.show();
     }
 
